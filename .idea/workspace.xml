@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed70d3b7-6c81-410e-a185-3aabc565fabb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/factory.simplefactory.CalculatorFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>factory.simplefactory.CalculatorFactory</OriginalElement>
+              <nodes>
+                <node x="0.0" y="195.0">factory.simplefactory.CalculatorFactory</node>
+                <node x="0.0" y="100.0">factory.CRSCalculator4PV</node>
+                <node x="192.0" y="100.0">factory.IRSCalculator4PV</node>
+                <node x="104.0" y="0.0">factory.ICalculator4PV</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="factory.CRSCalculator4PV" target="factory.ICalculator4PV">
+                  <point x="0.0" y="-25.0" />
+                  <point x="86.0" y="75.0" />
+                  <point x="143.0" y="75.0" />
+                  <point x="-39.0" y="25.0" />
+                </edge>
+                <edge source="factory.IRSCalculator4PV" target="factory.ICalculator4PV">
+                  <point x="0.0" y="-25.0" />
+                  <point x="278.0" y="75.0" />
+                  <point x="221.0" y="75.0" />
+                  <point x="39.0" y="25.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-331.5" y="57.0" />
+              <SelectedNodes>
+                <node>factory.simplefactory.CalculatorFactory</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/uml/factory/simplefactory.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/factory.abstractfactory.CRSCalculatorFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>factory.abstractfactory.CRSCalculatorFactory</OriginalElement>
+              <nodes>
+                <node x="108.0" y="241.0">factory.ICalculator4Xva</node>
+                <node x="139.5" y="0.0">factory.abstractfactory.ICalculatorFactory</node>
+                <node x="0.0" y="341.0">factory.CRSCalculator4Xva</node>
+                <node x="279.0" y="123.0">factory.abstractfactory.CRSCalculatorFactory</node>
+                <node x="200.0" y="341.0">factory.IRSCalculator4Xva</node>
+                <node x="0.0" y="123.0">factory.abstractfactory.IRSCalculatorFactory</node>
+                <node x="0.0" y="536.0">factory.CRSCalculator4PV</node>
+                <node x="192.0" y="536.0">factory.IRSCalculator4PV</node>
+                <node x="104.0" y="436.0">factory.ICalculator4PV</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="factory.CRSCalculator4PV" target="factory.ICalculator4PV">
+                  <point x="0.0" y="-25.0" />
+                  <point x="86.0" y="511.0" />
+                  <point x="143.0" y="511.0" />
+                  <point x="-39.0" y="25.0" />
+                </edge>
+                <edge source="factory.IRSCalculator4Xva" target="factory.ICalculator4Xva">
+                  <point x="0.0" y="-25.0" />
+                  <point x="290.0" y="316.0" />
+                  <point x="231.0" y="316.0" />
+                  <point x="41.0" y="25.0" />
+                </edge>
+                <edge source="factory.abstractfactory.IRSCalculatorFactory" target="factory.abstractfactory.ICalculatorFactory">
+                  <point x="0.0" y="-36.5" />
+                  <point x="129.5" y="98.0" />
+                  <point x="204.25" y="98.0" />
+                  <point x="-64.75" y="36.5" />
+                </edge>
+                <edge source="factory.IRSCalculator4PV" target="factory.ICalculator4PV">
+                  <point x="0.0" y="-25.0" />
+                  <point x="278.0" y="511.0" />
+                  <point x="221.0" y="511.0" />
+                  <point x="39.0" y="25.0" />
+                </edge>
+                <edge source="factory.CRSCalculator4Xva" target="factory.ICalculator4Xva">
+                  <point x="0.0" y="-25.0" />
+                  <point x="90.0" y="316.0" />
+                  <point x="149.0" y="316.0" />
+                  <point x="-41.0" y="25.0" />
+                </edge>
+                <edge source="factory.abstractfactory.CRSCalculatorFactory" target="factory.abstractfactory.ICalculatorFactory">
+                  <point x="0.0" y="-36.5" />
+                  <point x="408.5" y="98.0" />
+                  <point x="333.75" y="98.0" />
+                  <point x="64.75" y="36.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="269.0" y="293.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/factory.factorymethod.CRSCalculatorFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>factory.factorymethod.CRSCalculatorFactory</OriginalElement>
+              <nodes>
+                <node x="0.0" y="100.0">factory.factorymethod.IRSCalculatorFactory</node>
+                <node x="129.0" y="0.0">factory.factorymethod.ICalculatorFactory</node>
+                <node x="0.0" y="295.0">factory.CRSCalculator4PV</node>
+                <node x="192.0" y="295.0">factory.IRSCalculator4PV</node>
+                <node x="258.0" y="100.0">factory.factorymethod.CRSCalculatorFactory</node>
+                <node x="104.0" y="195.0">factory.ICalculator4PV</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="factory.IRSCalculator4PV" target="factory.ICalculator4PV">
+                  <point x="0.0" y="-25.0" />
+                  <point x="278.0" y="270.0" />
+                  <point x="221.0" y="270.0" />
+                  <point x="39.0" y="25.0" />
+                </edge>
+                <edge source="factory.factorymethod.CRSCalculatorFactory" target="factory.factorymethod.ICalculatorFactory">
+                  <point x="0.0" y="-25.0" />
+                  <point x="377.0" y="75.0" />
+                  <point x="307.5" y="75.0" />
+                  <point x="59.5" y="25.0" />
+                </edge>
+                <edge source="factory.CRSCalculator4PV" target="factory.ICalculator4PV">
+                  <point x="0.0" y="-25.0" />
+                  <point x="86.0" y="270.0" />
+                  <point x="143.0" y="270.0" />
+                  <point x="-39.0" y="25.0" />
+                </edge>
+                <edge source="factory.factorymethod.IRSCalculatorFactory" target="factory.factorymethod.ICalculatorFactory">
+                  <point x="0.0" y="-25.0" />
+                  <point x="119.0" y="75.0" />
+                  <point x="188.5" y="75.0" />
+                  <point x="-59.5" y="25.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-265.5" y="134.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/CRSCalculatorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/factory/FactoryMethodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/factory/SimpleFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/factory/factorymethod/ICalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/IRSCalculator4Xva.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/factorymethod/CRSCalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/factorymethod/IRSCalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/abstractfactory/IRSCalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/abstractfactory/ICalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/abstractfactory/CRSCalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/SimpleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/simplefactory/CalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/doc/uml/factory/simplefactory.puml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/uml/factory" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="factory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhux\IdeaProjects\designPattern\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AbstractFactoryTest">
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.AbstractFactoryTest" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.FactoryMethodTest" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.SimpleFactoryTest" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AbstractFactoryTest" />
+        <item itemvalue="Application.FactoryMethodTest" />
+        <item itemvalue="Application.SimpleFactoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed70d3b7-6c81-410e-a185-3aabc565fabb" name="Default Changelist" comment="" />
+      <created>1557755464360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557755464360</updated>
+      <workItem from="1557755468168" duration="3260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3260000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.21451788" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="PlantUML" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abstractfactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/IRSCalculator4PV.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/CRSCalculator4Xva.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ICalculator4Xva.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/IRSCalculator4Xva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ICalculator4PV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/factory.factorymethod">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.factorymethod</OriginalElement>
+          <nodes>
+            <node x="" y="">factory.ICalculator4Xva</node>
+            <node x="" y="">factory.CRSCalculator4Xva</node>
+            <node x="" y="">factory.factorymethod.IRSCalculatorFactory</node>
+            <node x="" y="">factory.factorymethod.ICalculatorFactory</node>
+            <node x="" y="">factory.IRSCalculator4Xva</node>
+            <node x="" y="">factory.CRSCalculator4PV</node>
+            <node x="" y="">factory.IRSCalculator4PV</node>
+            <node x="" y="">factory.factorymethod.CRSCalculatorFactory</node>
+            <node x="" y="">factory.ICalculator4PV</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="248.0" y="199.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/factory.abstractfactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.abstractfactory</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="239.5" y="193.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/ICalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/IRSCalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/simplefactory/CalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/uml/factory/factorymethod.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abstractfactory/ICalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abstractfactory/IRSCalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abstractfactory/CRSCalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/factory.factorymethod.ICalculatorFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.factorymethod.ICalculatorFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">factory.factorymethod.IRSCalculatorFactory</node>
+            <node x="" y="">factory.factorymethod.ICalculatorFactory</node>
+            <node x="" y="">factory.FactoryMethodTest</node>
+            <node x="" y="">factory.CRSCalculator4PV</node>
+            <node x="" y="">factory.IRSCalculator4PV</node>
+            <node x="" y="">factory.factorymethod.CRSCalculatorFactory</node>
+            <node x="" y="">factory.ICalculator4PV</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="336.5" y="180.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/factory.abstractfactory.ICalculatorFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.abstractfactory.ICalculatorFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">factory.ICalculator4Xva</node>
+            <node x="" y="">factory.abstractfactory.ICalculatorFactory</node>
+            <node x="" y="">factory.CRSCalculator4Xva</node>
+            <node x="" y="">factory.abstractfactory.CRSCalculatorFactory</node>
+            <node x="" y="">factory.IRSCalculator4Xva</node>
+            <node x="" y="">factory.abstractfactory.IRSCalculatorFactory</node>
+            <node x="" y="">factory.CRSCalculator4PV</node>
+            <node x="" y="">factory.AbstractFactoryTest</node>
+            <node x="" y="">factory.IRSCalculator4PV</node>
+            <node x="" y="">factory.ICalculator4PV</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="19.5" y="135.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/uml/factory/simplefactory.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/SimpleFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/factorymethod/CRSCalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/factory.factorymethod.CRSCalculatorFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.factorymethod.CRSCalculatorFactory</OriginalElement>
+          <nodes>
+            <node x="0.0" y="100.0">factory.factorymethod.IRSCalculatorFactory</node>
+            <node x="129.0" y="0.0">factory.factorymethod.ICalculatorFactory</node>
+            <node x="0.0" y="295.0">factory.CRSCalculator4PV</node>
+            <node x="192.0" y="295.0">factory.IRSCalculator4PV</node>
+            <node x="258.0" y="100.0">factory.factorymethod.CRSCalculatorFactory</node>
+            <node x="104.0" y="195.0">factory.ICalculator4PV</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="factory.IRSCalculator4PV" target="factory.ICalculator4PV">
+              <point x="0.0" y="-25.0" />
+              <point x="278.0" y="270.0" />
+              <point x="221.0" y="270.0" />
+              <point x="39.0" y="25.0" />
+            </edge>
+            <edge source="factory.factorymethod.CRSCalculatorFactory" target="factory.factorymethod.ICalculatorFactory">
+              <point x="0.0" y="-25.0" />
+              <point x="377.0" y="75.0" />
+              <point x="307.5" y="75.0" />
+              <point x="59.5" y="25.0" />
+            </edge>
+            <edge source="factory.CRSCalculator4PV" target="factory.ICalculator4PV">
+              <point x="0.0" y="-25.0" />
+              <point x="86.0" y="270.0" />
+              <point x="143.0" y="270.0" />
+              <point x="-39.0" y="25.0" />
+            </edge>
+            <edge source="factory.factorymethod.IRSCalculatorFactory" target="factory.factorymethod.ICalculatorFactory">
+              <point x="0.0" y="-25.0" />
+              <point x="119.0" y="75.0" />
+              <point x="188.5" y="75.0" />
+              <point x="-59.5" y="25.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-265.5" y="134.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/uml/factory/abstractfactory.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://JAVA/factory.simplefactory.CalculatorFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.simplefactory.CalculatorFactory</OriginalElement>
+          <nodes>
+            <node x="0.0" y="195.0">factory.simplefactory.CalculatorFactory</node>
+            <node x="0.0" y="100.0">factory.CRSCalculator4PV</node>
+            <node x="192.0" y="100.0">factory.IRSCalculator4PV</node>
+            <node x="104.0" y="0.0">factory.ICalculator4PV</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="factory.CRSCalculator4PV" target="factory.ICalculator4PV">
+              <point x="0.0" y="-25.0" />
+              <point x="86.0" y="75.0" />
+              <point x="143.0" y="75.0" />
+              <point x="-39.0" y="25.0" />
+            </edge>
+            <edge source="factory.IRSCalculator4PV" target="factory.ICalculator4PV">
+              <point x="0.0" y="-25.0" />
+              <point x="278.0" y="75.0" />
+              <point x="221.0" y="75.0" />
+              <point x="39.0" y="25.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-331.5" y="57.0" />
+          <SelectedNodes>
+            <node>factory.simplefactory.CalculatorFactory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/uml/factory/simplefactory.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://JAVA/factory.abstractfactory.CRSCalculatorFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>factory.abstractfactory.CRSCalculatorFactory</OriginalElement>
+          <nodes>
+            <node x="108.0" y="241.0">factory.ICalculator4Xva</node>
+            <node x="139.5" y="0.0">factory.abstractfactory.ICalculatorFactory</node>
+            <node x="0.0" y="341.0">factory.CRSCalculator4Xva</node>
+            <node x="279.0" y="123.0">factory.abstractfactory.CRSCalculatorFactory</node>
+            <node x="200.0" y="341.0">factory.IRSCalculator4Xva</node>
+            <node x="0.0" y="123.0">factory.abstractfactory.IRSCalculatorFactory</node>
+            <node x="0.0" y="536.0">factory.CRSCalculator4PV</node>
+            <node x="192.0" y="536.0">factory.IRSCalculator4PV</node>
+            <node x="104.0" y="436.0">factory.ICalculator4PV</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="factory.CRSCalculator4PV" target="factory.ICalculator4PV">
+              <point x="0.0" y="-25.0" />
+              <point x="86.0" y="511.0" />
+              <point x="143.0" y="511.0" />
+              <point x="-39.0" y="25.0" />
+            </edge>
+            <edge source="factory.IRSCalculator4Xva" target="factory.ICalculator4Xva">
+              <point x="0.0" y="-25.0" />
+              <point x="290.0" y="316.0" />
+              <point x="231.0" y="316.0" />
+              <point x="41.0" y="25.0" />
+            </edge>
+            <edge source="factory.abstractfactory.IRSCalculatorFactory" target="factory.abstractfactory.ICalculatorFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="129.5" y="98.0" />
+              <point x="204.25" y="98.0" />
+              <point x="-64.75" y="36.5" />
+            </edge>
+            <edge source="factory.IRSCalculator4PV" target="factory.ICalculator4PV">
+              <point x="0.0" y="-25.0" />
+              <point x="278.0" y="511.0" />
+              <point x="221.0" y="511.0" />
+              <point x="39.0" y="25.0" />
+            </edge>
+            <edge source="factory.CRSCalculator4Xva" target="factory.ICalculator4Xva">
+              <point x="0.0" y="-25.0" />
+              <point x="90.0" y="316.0" />
+              <point x="149.0" y="316.0" />
+              <point x="-41.0" y="25.0" />
+            </edge>
+            <edge source="factory.abstractfactory.CRSCalculatorFactory" target="factory.abstractfactory.ICalculatorFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="408.5" y="98.0" />
+              <point x="333.75" y="98.0" />
+              <point x="64.75" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="269.0" y="293.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
