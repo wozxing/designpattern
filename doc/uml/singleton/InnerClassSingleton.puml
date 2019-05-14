@@ -1,0 +1,26 @@
+@startuml
+Client -> Outer:第一次getInstance()
+activate Outer
+Outer -> Inner:取得Singleton对象
+activate Inner
+Inner->Inner:加载内部类，创建Singleton对象
+
+Outer<--Inner:返回Singleton对象
+deactivate Inner
+Client<--Outer:Singleton
+deactivate Outer
+
+Client -> Outer:getInstance()
+activate Outer
+
+Outer -> Inner:取得Singleton对象
+activate Inner
+Outer<--Inner:返回Singleton对象
+deactivate Inner
+
+
+
+
+Client<--Outer:Singleton
+deactivate Outer
+@enduml
